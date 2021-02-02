@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+}
+a{
+    text-decoration: none;
+}
+
+#contact{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #eee;
+}
+#contact span{
+    padding-top: 20px;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
