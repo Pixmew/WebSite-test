@@ -1,74 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-
 
 /*About me section styling*/
-#aboutme{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    width: 100%;
-    height: 100vh;
-    bottom: 0;
-
-    box-sizing: border-box;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+#aboutme {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  bottom: 0;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
-.styl{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    padding-top: 250px;
+.styl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  /* padding-top: 250px; */
 }
-.about-page-content, .page-content-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 40px 60px;
+.about-page-content,
+.page-content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 60px;
 }
-.about-page-content .about-image img{
-    padding-bottom: 20px;
+.about-page-content .about-image img {
+  padding-bottom: 20px;
 }
-.about-text-right{
-    padding-top: 30px;
-    width: 600px;
-    font-family: 'Ubuntu' ,  sans-serif;
+.about-text-right {
+  padding-top: 30px;
+  font-size: 1.2rem;
+  width: 600px;
+  font-family: "Ubuntu", sans-serif;
 }
-.about-page-content .about-bio{
-    display: block;
-    max-width: 50vw;
-    padding: 0 60px;
+.about-page-content .about-bio {
+  display: block;
+  max-width: 50vw;
+  padding: 0 60px;
 }
-.about-page-content .about-bio .about-title{
-    padding: 30px 0px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+.about-page-content .about-bio .about-title {
+  padding: 30px 0px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
 }
-.about-page-content .about-bio .about-text{
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    opacity: 0.8;
-    font-size: 27px;
-    font-weight: 100;
-    width:300px;
+.about-page-content .about-bio .about-text {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.8;
+  font-size: 27px;
+  font-weight: 100;
+  width: 300px;
 }
-.about-page-content .about-bio .about-btn{
+.about-page-content .about-bio .about-btn {
   padding-top: 50px;
 }
-.about-page-content .about-bio .about-btn a{
+.about-page-content .about-bio .about-btn a {
   padding: 20px 50px;
-    color: #fff;
-    background-color: #000;
-    font-family: 'Ubuntu' , sans-serif;
+  color: #fff;
+  background-color: #000;
+  font-family: "Ubuntu", sans-serif;
 }

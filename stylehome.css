@@ -1,107 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-
 
 /*Home section Styling*/
-#main{
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    background : #000;
 
+#main {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url("./Images/hero-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 /*Navigation Bar Styling*/
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Ubuntu' , sans-serif;
-    letter-spacing: 2px;
-    position: fixed;
-    font-weight: 600;
-    width: 100%;
-    top: 0;
-    left : 0;
-    padding-top: 20px;
-    z-index: 999;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 2px;
+  position: fixed;
+  font-weight: 600;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  z-index: 999;
 }
 /*navigation bar logo styling*/
-.navbar .logo{
-    padding-left: 5vw;
+.navbar .logo {
+  padding-left: 5vw;
 }
-.navbar .logo a{
-    color: #fff;
-    font-size: 20px;
+.navbar .logo a {
+  color: #fff;
+  font-size: 20px;
 }
 /*navigation bar n=menu styling*/
-.navbar .menu{
-    margin-right: 5vw;
+.navbar .menu {
+  margin-right: 5vw;
 }
-.navbar .menu li{
-    display: inline-flex;
-    margin-left: 30px;
+.navbar .menu li {
+  display: inline-flex;
+  margin-left: 30px;
 }
-.navbar .menu li a{
-    position: relative;
-    padding:20px 1.5vw;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 300;
+.navbar .menu li a {
+  position: relative;
+  padding: 20px 1.5vw;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
 }
-.navbar .menu .mid{
-    background-color: #e6f2d9;
-    border-radius: 5px;
+.navbar .menu .mid {
+  background-color: #e6f2d9;
+  border-radius: 5px;
 }
-.navbar .menu .mid{
-    background-color: #e6f2d9;
-    border-radius: 5px;
+.navbar .menu .mid {
+  background-color: #e6f2d9;
+  border-radius: 5px;
 }
-.navbar .menu .mid li a{
-    color: dodgerblue;
-    font-weight: 600;
+.navbar .menu .mid li a {
+  color: dodgerblue;
+  font-weight: 600;
 }
-.navbar .menu .login a{
-    background-color: MediumSeaGreen;
-    border-radius: 5px;
-    color: #fff;
+.navbar .menu .login a {
+  background-color: MediumSeaGreen;
+  border-radius: 5px;
+  color: #fff;
 }
 
 /**home page content Styling*/
-.home-content{
-    position: absolute;
-    left: 20vw;
-    font-family: 'Poppins' ,sans-serif;
-    width : auto;
-    top : 30vh;
+.home-content {
+  position: absolute;
+  left: 20vw;
+  font-family: "Poppins", sans-serif;
+  width: auto;
+  top: 30vh;
 }
-.home-content h1{
-    font-size: 40px;
-    font-weight: 200;
-    color: #fff;
+.home-content h1 {
+  font-size: 40px;
+  font-weight: 200;
+  color: #fff;
 }
-.home-content h1 span{
-    font-size: 50px;
-    font-weight: 600;
+.home-content h1 span {
+  font-size: 50px;
+  font-weight: 600;
 }
-.home-content p{
-    color: #fff;
+.home-content p {
+  color: #fff;
 }
-.home-content .cv-btn{
-    display: flex;
-    width: 200px;
-    height: 45;
-    border: 2px solid MediumSeaGreen;
-    border-radius: 5px;
-    background-color: MediumSeaGreen;
-    color : #fff;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+.home-content .cv-btn {
+  display: flex;
+  width: 200px;
+  height: 45;
+  border: 2px solid MediumSeaGreen;
+  border-radius: 5px;
+  background-color: MediumSeaGreen;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
