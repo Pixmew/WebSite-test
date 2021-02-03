@@ -27,10 +27,10 @@
         var timer = null;
 
 
-        $ele.find('.hi-next').on('click', function() {
+        $ele.find('.slider-next').on('click', function() {
             next();
         });
-        $ele.find('.hi-prev').on('click', function() {
+        $ele.find('.slider-before').on('click', function() {
             states.push(states.shift());
             move();
         });
@@ -64,7 +64,7 @@
         }
     }
 
-    $.fn.hiSlide = function(options) {
+    $.fn.Slide = function(options) {
         $(this).each(function(index, ele) {
             slide(ele,options);
         });
